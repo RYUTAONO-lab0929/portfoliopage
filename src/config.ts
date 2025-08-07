@@ -8,7 +8,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Drawing on the multicultural perspective I gained during my studies in Austria and my graduate work in informatics at the University of Tsukuba, I co-developed a hands-free audio guide using BLE technology in partnership with Shinshu University. The system allows visitors who are visually impaired to enjoy art independently. I also hold the Google Data Analytics Professional Certificate. In my free time I love watching films and listening to music.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Cursor", "Claude Code", "Open Router", "Chat GPT", "Codex", "Suno"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
