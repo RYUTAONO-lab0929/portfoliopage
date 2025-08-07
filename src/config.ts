@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ryuta Ono",
-  title: "Senior Software Engineer",
+  title: "Crossover Creative",
   description: "Portfolio website of Ryuta Ono",
   accentColor: "#1d4ed8",
   social: {
