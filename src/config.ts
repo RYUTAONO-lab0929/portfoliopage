@@ -11,29 +11,7 @@ export const siteConfig = {
     ja: "私はオーストリア留学で培った多文化的視点と、筑波大学大学院で学んだ情報学を生かし、BLE 技術を用いたハンズフリー音声ガイドを開発しました（信州大学との共同研究）。これにより、視覚障がい者が自立してアートを鑑賞できる環境を実現しています。また、Google Data Analytics 認定を取得しています。趣味は映画鑑賞と音楽鑑賞です。"
   },
   skills: ["Cursor", "Claude Code", "Open Router", "Chat GPT", "Codex", "Suno"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+  projects: [],
   experience: [
     {
       company: "Tech Company",
