@@ -24,6 +24,7 @@ export const siteConfig = {
         "Created accessible technology solution enabling independent art appreciation for visually impaired individuals",
         "Designed beginner-friendly implementation with clear documentation and modular architecture"
       ],
+      link: "https://www.shinshu-u.ac.jp/english/topics/2023/06/universal-design-in-.html"
     },
   ],
   education: [
