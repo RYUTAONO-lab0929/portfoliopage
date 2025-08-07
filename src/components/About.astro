@@ -16,12 +16,34 @@ import { siteConfig } from "../config";
           style={`background-color: ${siteConfig.accentColor}`}
         >
         </div>
+        
+        <!-- Language Toggle -->
+        <div class="mt-6 flex gap-2">
+          <button 
+            id="lang-en" 
+            class="language-btn px-3 py-1.5 rounded-full text-sm font-medium transition-colors duration-200 bg-gray-200 text-gray-800"
+            style={`background-color: ${siteConfig.accentColor}; color: white;`}
+          >
+            EN
+          </button>
+          <button 
+            id="lang-ja" 
+            class="language-btn px-3 py-1.5 rounded-full text-sm font-medium transition-colors duration-200 bg-gray-200 text-gray-800"
+          >
+            JP
+          </button>
+        </div>
       </div>
 
       <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
-          {siteConfig.aboutMe}
-        </p>
+        <div class="about-text">
+          <p id="about-en" class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
+            {siteConfig.aboutMe.en}
+          </p>
+          <p id="about-ja" class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600 hidden">
+            {siteConfig.aboutMe.ja}
+          </p>
+        </div>
 
         <div class="pt-4">
           <div class="flex flex-wrap gap-3">
@@ -38,3 +60,29 @@ import { siteConfig } from "../config";
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const langEnBtn = document.getElementById('lang-en');
+    const langJaBtn = document.getElementById('lang-ja');
+    const aboutEn = document.getElementById('about-en');
+    const aboutJa = document.getElementById('about-ja');
+    
+    function switchToEnglish() {
+      aboutEn?.classList.remove('hidden');
+      aboutJa?.classList.add('hidden');
+      langEnBtn?.setAttribute('style', 'background-color: #1d4ed8; color: white;');
+      langJaBtn?.setAttribute('style', 'background-color: #e5e7eb; color: #374151;');
+    }
+    
+    function switchToJapanese() {
+      aboutEn?.classList.add('hidden');
+      aboutJa?.classList.remove('hidden');
+      langJaBtn?.setAttribute('style', 'background-color: #1d4ed8; color: white;');
+      langEnBtn?.setAttribute('style', 'background-color: #e5e7eb; color: #374151;');
+    }
+    
+    langEnBtn?.addEventListener('click', switchToEnglish);
+    langJaBtn?.addEventListener('click', switchToJapanese);
+  });
+</script>
