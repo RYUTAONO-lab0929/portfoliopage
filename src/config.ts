@@ -4,10 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Ryuta Ono",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/ryutaono",
-    github: "https://github.com/RYUTAONO-lab0929",
   },
   aboutMe:
     "Drawing on the multicultural perspective I gained during my studies in Austria and my graduate work in informatics at the University of Tsukuba, I co-developed a hands-free audio guide using BLE technology in partnership with Shinshu University. The system allows visitors who are visually impaired to enjoy art independently. I also hold the Google Data Analytics Professional Certificate. In my free time I love watching films and listening to music.",
