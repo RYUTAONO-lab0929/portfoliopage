@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/RYUTAONO-lab0929",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Drawing on the multicultural perspective I gained during my studies in Austria and my graduate work in informatics at the University of Tsukuba, I co-developed a hands-free audio guide using BLE technology in partnership with Shinshu University. The system allows visitors who are visually impaired to enjoy art independently. I also hold the Google Data Analytics Professional Certificate. In my free time I love watching films and listening to music.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
