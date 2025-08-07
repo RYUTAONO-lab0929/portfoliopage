@@ -12,7 +12,20 @@ export const siteConfig = {
   },
   skills: ["Cursor", "Claude Code", "Open Router", "Chat GPT", "Codex", "Suno"],
   projects: [],
-  experience: [],
+  experience: [
+    {
+      company: "Shinshu University",
+      title: "IoT Systems Developer (Collaboration)",
+      dateRange: "Research Project",
+      bullets: [
+        "Developed BLE proximity-based hands-free audio guide system for visually impaired art gallery visitors",
+        "Implemented dual-technology approach: BLE for distance detection (-70dBm threshold) and Wi-Fi for high-quality audio streaming",
+        "Built Python-based IoT system using Raspberry Pi with automatic proximity detection and audio playback control",
+        "Created accessible technology solution enabling independent art appreciation for visually impaired individuals",
+        "Designed beginner-friendly implementation with clear documentation and modular architecture"
+      ],
+    },
+  ],
   education: [
     {
       school: "University Name",
