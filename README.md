@@ -1,17 +1,11 @@
-<<<<<<< HEAD
-<img width="1943" height="1093" alt="image" src="https://github.com/user-attachments/assets/cc2ff955-17c2-48c7-81c8-479a0f061850" />
+# RYUTAONO Portfolio
 
-# DevPortfolio Template
+A modern, minimalist portfolio website built with Astro and Tailwind CSS. Showcasing skills, experience, and projects in a clean, professional way.
 
-A modern, minimalist portfolio template built with Astro and Tailwind CSS. Perfect for developers looking to showcase their skills, experience, and projects in a clean, professional way.
-
-This was completely rebuilt from the ground up from V1. This template was built to be entirely ready to go with a quick config edit (see below) but also provides the ability to easily extend in whatever way you want.
-
-This template also comes with `CLAUDE.md` and `.cursor/rules` files for easy integration with your existing AI workflows.
+Built from the DevPortfolio template by Ryan Fitzgerald with customizations and personal branding.
 
 > **📬 Connect & Share!**  
-> For questions and updates, feel free to reach out on [**X (Twitter)**](https://x.com/rfitzio).  
-> If you've built and published your personal site with this template, I'd love to see it! Send me a DM 🚀
+> This portfolio was created using the DevPortfolio template. Original template by [Ryan Fitzgerald](https://x.com/rfitzio).
 
 ## Preview
 
@@ -186,6 +180,3 @@ This project is fully and completely MIT. See LICENSE.md.
 ## Questions?
 
 Feel free to reach out on [X (Twitter)](https://x.com/rfitzio) if you have any questions or need help.
-=======
-# portfoliopage
->>>>>>> 7bc6aae7bc1842d3ca5345b8c78f1a7da0aebf21
